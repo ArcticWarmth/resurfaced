@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "resurfaced",
+  "version": "${version}",
+  "name": "Resurfaced",
+  "description": "Making underwater exploration easier in a simple way",
+  "authors": ["ArcticWarmth"],
+  "contact": {
+    "repo": "https://github.com/arcticwarmth/resurfaced"
+  },
+  "license": "MIT",
+  "icon": "assets/resurfaced/resurfaced.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.arcticwarmth.resurfaced.client.ResurfacedClient"
+    ],
+    "main": [
+      "net.arcticwarmth.resurfaced.Resurfaced"
+    ]
+  },
+  "mixins": [
+    "resurfaced.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

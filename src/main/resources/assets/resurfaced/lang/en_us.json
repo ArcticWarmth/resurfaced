@@ -1,0 +1,6 @@
+{
+  "item.resurfaced.air_tank": "Air Tank",
+  "item.resurfaced.air_tank.tooltip": "A tank of air that can be used to breathe underwater.",
+  "item.resurfaced.air_tank.tooltip.remaining": "Air Remaining: %s",
+  "item.resurfaced.scuba_helmet": "Scuba Helmet"
+}
